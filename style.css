@@ -1,0 +1,166 @@
+body {
+
+background: black;
+color: white;
+font-family: 'Inter', sans-serif;
+
+margin: 0;
+
+}
+
+header {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+padding: 20px 40px;
+
+}
+
+.logo {
+
+height: 40px;
+
+}
+
+nav a {
+
+color: white;
+text-decoration: none;
+
+margin-left: 20px;
+
+opacity: 0.8;
+
+}
+
+nav a:hover {
+
+color: #CC0000;
+
+}
+
+.hero {
+
+height: 80vh;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+text-align: center;
+
+}
+
+h1 {
+
+font-size: 40px;
+
+}
+
+.buttons {
+
+margin-top: 30px;
+
+}
+
+.btn {
+
+border: 1px solid #CC0000;
+
+padding: 12px 24px;
+
+color: white;
+
+text-decoration: none;
+
+margin: 10px;
+
+transition: 0.3s;
+
+}
+
+.btn:hover {
+
+background: #CC0000;
+
+}
+
+section {
+
+padding: 80px 20px;
+
+text-align: center;
+
+}
+
+.cards {
+
+display: flex;
+justify-content: center;
+
+gap: 30px;
+
+margin-top: 40px;
+
+}
+
+.card {
+
+border: 1px solid #222;
+
+padding: 40px;
+
+width: 200px;
+
+transition: 0.3s;
+
+}
+
+.card:hover {
+
+border-color: #CC0000;
+
+transform: translateY(-5px);
+
+}
+
+audio {
+
+margin-top: 20px;
+
+}
+
+.links a {
+
+display: block;
+
+margin: 10px;
+
+color: white;
+
+text-decoration: none;
+
+}
+
+footer {
+
+border-top: 1px solid #111;
+
+padding: 40px;
+
+text-align: center;
+
+opacity: 0.6;
+
+}
+
+footer img {
+
+height: 30px;
+
+margin-bottom: 10px;
+
+}
