@@ -1,1 +1,8 @@
-console.log("WAVECLUBMEDIA online")
+console.log("WAVECLUBMEDIA V2 loaded");
+
+// Glow animation для кнопок
+const buttons = document.querySelectorAll('.btn');
+buttons.forEach(btn=>{
+  btn.addEventListener('mouseenter',()=>btn.style.boxShadow='0 0 25px #CC0000');
+  btn.addEventListener('mouseleave',()=>btn.style.boxShadow='0 0 0 #000');
+});
